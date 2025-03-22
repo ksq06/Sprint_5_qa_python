@@ -47,3 +47,4 @@ class Navigatorprofile:
     np_logout_button = (By.XPATH, ".//button[text()='Выход']")
     np_info_message = (By.XPATH, ".//p[contains(text(),'персональные данные')]")
     np_history_shop_button = (By.XPATH, ".//li[@class='Account_listItem__35dAP']/a[@class='Account_link__2ETsJ text text_type_main-medium text_color_inactive']")
+    H1_TAG = (By.XPATH, ".//h1")
